@@ -15,9 +15,10 @@ This is a Final Integrated Project for the Interactive Media Design course at Fa
 ========================================================================
 
 # INSTALLATION
-Create your new repository
-Open your Terminal
-Git clone:
+- Create your new repository
+- Open your Terminal
+- Git clone:
+
 ========================================================================
 
 # USAGE
