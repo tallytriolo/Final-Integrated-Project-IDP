@@ -17,7 +17,7 @@ This is a Final Integrated Project for the Interactive Media Design course at Fa
 # INSTALLATION
 - Create your new repository
 - Open your Terminal
-- Git clone: git@github.com:tallytriolo/Final-Integrated-Project-IDP.git 
+- Git clone: [Link GitHub Tallyta Triolo](git@github.com:tallytriolo/Final-Integrated-Project-IDP.git)
 
 ========================================================================
 
