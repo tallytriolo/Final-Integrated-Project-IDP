@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dog's Spaw</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="container">
+
+    	<header id="mainHeader">
+            <h1 class="hidden">Dog's Spaw</h1>
+        	<div id="logo">
+                <img src="images/dog_spaw_logo.svg" alt="Dog's Spaw Logo" width="261" height="66">
+            </div>
+            <nav id="mainNav">
+                <h2 class="hidden">Main Navigation</h2>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li class="selected"><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div id="separator"></div>
+        </header>   
+
+        <main>
+        	<div id="heroFull">
+                <img src="images/image_contact.png" alt="Contact Image" width="920" height="250">
+            </div>
+
+            <div id="textImg2">
+                <p>Make the best choice for your dog.</p>
+                <h2>Book an Appointment</h2>
+            </div>
+            
+        	<section id="contactLeft">
+                    <h2>CONTACT US</h2>
+                    <h3 class="hidden">Contact form</h3>
+            
+            <form id="contactForm" action="form.php" method="post">
+                    <label for="name">Name (required)</label>
+                    <input type="text" required id="name" name="fullName" size="30" placeholder="Enter your name">
+                    
+                    <label for="email">Email </label>
+                    <input type="email" required id="email" size="30" placeholder="Enter your Email">
+                    
+                    <label for="phone">Phone (required)</label>
+                    <input type="tel" required id="phone" size="30" placeholder="Enter Phone Number">
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" required cols="50" rows="8"></textarea>
+                   
+                    <input id="submit" type="submit" value="SUBMIT">
+            </form> 
+
+           <div id="dogForm">
+            <form id="dogData" action="form.php" method="post">
+                <label for="dogsName">Dog's Name </label>
+                <input type="text" required id="dogsName" size="30" placeholder="Enter your dog's name">
+
+                <label for="breed">Breed </label>
+                <input type="text" required id="breed" size="30" placeholder="Enter your dog's breed">
+
+                <label for="age">Age </label>
+                <input type="text" required id="age" size="30" placeholder="Enter your dog's age">
+
+                <label for="human">What is 5 + 2?</label>
+                <input type="text" required id="human" size="30" placeholder="What is 5 + 2?">
+            </form>
+        </div> 
+
+            </section>
+            
+            <section id="contactRight">
+                <h2 class="hidden">MAP LINK</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46696.76247285923!2d-81.31056546374269!3d42.987801478582824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882eed0db33e1e9f%3A0xafcae4298924fa54!2sFanshawe%20College!5e0!3m2!1spt-BR!2sca!4v1649776517810!5m2!1spt-BR!2sca" width="450" height="335" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+
+        </main>
+
+ 
+      <div id="backFooter">
+    <footer id="mainFooter">
+        <h2 class="hidden">FOOTER</h2>
+        <div id="footerHours">
+            <h3>HOURS</h3>
+            <ul>
+                <li>Monday to Thursday - 9am-5pm</li>
+                <li>Friday - 10am-4pm</li>
+                <li>Saturday - 10am-2pm</li>
+                <li>Sunday - closed!</li>
+            </ul></div>
+       
+        <div id="footerContact">
+        <h3 class="hidden">BOOK AN APPOINTMENT</h3>
+    <a href="contact.html" class="contactBut">BOOK AN APPOINTMENT</a>
+       
+    <h4 class="hidden">Social Media</h4>
+        <ul>
+            <li id="facebook"><a href="https://www.facebook.com"><img src="images/icon_facebook.svg" alt="Facebook logo" width="30" height="30"></a></li>
+            <li id="instagram"><a href="https://www.instagram.com"><img src="images/icon_instagram.svg" alt="Instagram logo" width="30" height="30"></a></li>
+        </ul>
+    </div>
+    
+    <div id="address">
+    <h3>ADDRESS</h3>
+    <ul>
+        <li>1001 Fanshawe College Blvd</li>
+        <li>London, ON N5Y 5R6</li>
+        <li>Ontario | Canada</li>
+    </ul>
+    <p>Copyright @ 2022</p>
+    </div>
+
+    </footer>
+        </div>
+        
+    
+        <script src="js/main.js"></script>  
+    </div>
+    </body>
+    </html>
+    
